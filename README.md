@@ -1,6 +1,6 @@
-# Spotify-Style Music Player
+# Music Player — Demo Project
 
-A fully functional, Spotify-inspired music player built with **vanilla HTML, CSS, and JavaScript** — no frameworks, no backend, no build tools.
+A fully functional music streaming-app UI, built with **vanilla HTML, CSS, and JavaScript** — no frameworks, no backend, no build tools. Inspired by the layout conventions of popular music apps, but an independent, from-scratch project (not affiliated with or endorsed by any music streaming service).
 
 ## Features
 
@@ -68,4 +68,4 @@ Sample tracks are royalty-free demo files from [SoundHelix](https://www.soundhel
 
 ## License
 
-This project is for personal/educational use. Replace sample audio before any commercial deployment.
+This project is for personal/educational use. Replace sample audio before any commercial deployment.ject is for personal/educational use. Replace sample audio before any commercial deployment.
