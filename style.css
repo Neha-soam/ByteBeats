@@ -411,10 +411,9 @@ html[data-theme="light"] .icon-btn.on, html[data-theme="light"] .song-row.playin
 @media (max-width: 700px){ .toast{ bottom: 150px; } }
 html[data-theme="light"] .toast{ background: #111; color: #fff; }
 
-/* ================= EXTRA: install confirm popup ================= */
+/* ================= Shared modal styles (used by Dialog + profile menu) ================= */
 .install-overlay{ position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex; align-items: center; justify-content: center; z-index: 400; animation: fadeIn .15s ease; }
 .install-modal{ background: #181818; border-radius: 1rem; padding: 1.75rem; width: min(90vw, 320px); text-align: center; box-shadow: 0 12px 40px rgba(0,0,0,.6); }
-.install-icon{ width: 64px; height: 64px; object-fit: cover; border-radius: .75rem; margin-bottom: .75rem; }
 .install-modal h3{ margin: 0 0 .4rem; }
 .install-modal p{ margin: 0 0 1.25rem; opacity: .7; font-size: .9rem; }
 .install-actions{ display: flex; gap: .75rem; justify-content: center; }
