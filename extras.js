@@ -57,11 +57,11 @@
     overlay.innerHTML = `
       <div class="install-modal" role="dialog" aria-modal="true" aria-labelledby="install-title">
         <img src="album_picture.jpeg" alt="" class="install-icon">
-        <h3 id="install-title">Install Spotify?</h3>
-        <p>You'll be taken to Spotify's official site to install the app.</p>
+        <h3 id="install-title">Open Spotify's website?</h3>
+        <p>This will take you to Spotify's official site in a new tab. This player is just a demo project and isn't affiliated with Spotify.</p>
         <div class="install-actions">
           <button class="badge" data-act="cancel">Cancel</button>
-          <button class="badge dark-badge" data-act="install">Install</button>
+          <button class="badge dark-badge" data-act="install">Continue</button>
         </div>
       </div>`;
     document.body.append(overlay);
@@ -73,7 +73,7 @@
       if (e.target === overlay || e.target.dataset.act === "cancel") return close();
       if (e.target.dataset.act === "install") {
         close();
-        toast("Redirecting to Spotify\u2026", 1200);
+        toast("Opening spotify.com\u2026", 1200);
         setTimeout(() => window.open("https://www.spotify.com/download/", "_blank", "noopener"), 500);
       }
     });
